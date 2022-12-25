@@ -1,0 +1,20 @@
+---
+- summary: |
+    Поиск товара "Tree oil" по ключевому слову.
+  status: pass
+
+- summary: |
+    Поиск товара "Rose ring" по ключевому слову.
+  status: fail
+
+- summary: |
+    Поиск товаров по категории "laptops".
+  status: pass
+
+- summary: |
+    Проверка добавления товаров "MacBook Pro" и "Tree Oil 30ml" в Корзину.
+  status: pass
+
+- summary: |
+    Поиск товара "Samsung Universe 9" через фильтры по цене.
+  status: fail
