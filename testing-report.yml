@@ -1,20 +1,80 @@
 ---
 - summary: |
-    Поиск товара "Tree oil" по ключевому слову.
+    Поиск товара по ключевому слову.
   status: pass
 
 - summary: |
-    Поиск товара "Rose ring" по ключевому слову.
+    Поиск товаров по категории.
+  status: pass
+
+- summary: |
+    Поиск товаров по цене.
   status: fail
 
 - summary: |
-    Поиск товаров по категории "laptops".
-  status: pass
-
-- summary: |
-    Проверка добавления товаров "MacBook Pro" и "Tree Oil 30ml" в Корзину.
-  status: pass
-
-- summary: |
-    Поиск товара "Samsung Universe 9" через фильтры по цене.
+    Поиск товаров по цвету.
   status: fail
+
+- summary: |
+    Поиск товаров по размеру.
+  status: fail
+
+- summary: |
+    Поиск товара независимо от пагинации.
+  status: fail
+
+- summary: |
+    Просмотр подробной информации о товаре.
+  status: fail
+
+- summary: |
+    Проверка работы флажка "In stock".
+  status: pass
+
+- summary: |
+    Поиск товаров по рейтингу.
+  status: fail
+
+- summary: |
+    Возможность сбрасывать фильтры.
+  status: fail
+
+- summary: |
+    Проверка работы кнопки перехода на предыдущую страницу списка товаров.
+  status: pass
+
+- summary: |
+    Проверка работы кнопки перехода на следущую страницу списка товаров.
+  status: pass
+
+- summary: |
+    Проверка добавления товаров в Корзину.
+  status: pass
+
+- summary: |
+    Проверка удаления товаров из Корзины.
+  status: pass
+
+- summary: |
+    Проверка очистки Корзины.
+  status: pass
+
+- summary: |
+    Проверка общей стоимости товаров в Корзине.
+  status: pass
+
+- summary: |
+    Проверка кнопки возврата к покупкам.
+  status: pass
+
+- summary: |
+    Проверка смены языка сайта.
+  status: fail
+
+- summary: |
+    Проверка отображении сайта в последней версии Google Chrome.
+  status: pass
+
+- summary: |
+    Проверка отображении сайта в последней версии Microsoft Edge.
+  status: pass
