@@ -80,6 +80,11 @@ test-cases:
       Проверка отображении сайта в последней версии Microsoft Edge.
     status: pass
 
+  - summary: |
+      Проверка отображении сайта на мобильном устройстве Google Pixel 2XL.
+    status: pass
+
+
 bugreports:
   - summary: |
       Результаты поиска по цене "от/до" отображаются некорректно.
